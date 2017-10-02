@@ -22,6 +22,6 @@ app.get("/:time", function (req, res) {
 })
 
 
-app.listen(process.env.PORT, function () {
-  console.log("listen start");
+app.listen(8080, function () {
+  console.log("Server start at port: 8080");
 });
